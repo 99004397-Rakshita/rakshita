@@ -1,0 +1,93 @@
+[2021-06-24 21:27:37.261] [exthost] [info] extension host started
+[2021-06-24 21:27:37.309] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2021-06-24 21:27:37.309] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/rakshita/.vscode-server/bin/507ce72a4466fbb27b715c3722558bb15afa9f48/extensions/debug-auto-launch/dist/extension
+[2021-06-24 21:27:37.330] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-06-24 21:27:37.422] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/rakshita/.vscode-server/bin/507ce72a4466fbb27b715c3722558bb15afa9f48/extensions/git/dist/main
+[2021-06-24 21:27:40.514] [exthost] [info] ExtensionService#_doActivateExtension vscode.github {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-06-24 21:27:40.515] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/rakshita/.vscode-server/bin/507ce72a4466fbb27b715c3722558bb15afa9f48/extensions/github/dist/extension.js
+[2021-06-24 21:27:41.465] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":false,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"onStartupFinished"}
+[2021-06-24 21:27:41.465] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/rakshita/.vscode-server/bin/507ce72a4466fbb27b715c3722558bb15afa9f48/extensions/emmet/dist/node/emmetNodeMain
+[2021-06-24 21:27:41.500] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":false,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"onStartupFinished"}
+[2021-06-24 21:27:41.501] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/rakshita/.vscode-server/bin/507ce72a4466fbb27b715c3722558bb15afa9f48/extensions/merge-conflict/dist/mergeConflictMain
+[2021-06-24 21:27:41.512] [exthost] [info] ExtensionService#_doActivateExtension vscode.testing-editor-contributions {"startup":false,"extensionId":{"value":"vscode.testing-editor-contributions","_lower":"vscode.testing-editor-contributions"},"activationEvent":"onStartupFinished"}
+[2021-06-24 21:27:41.512] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/rakshita/.vscode-server/bin/507ce72a4466fbb27b715c3722558bb15afa9f48/extensions/testing-editor-contributions/dist/extension.js
+[2021-06-24 21:27:41.515] [exthost] [info] eager extensions activated
+[2021-06-24 21:27:42.383] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug {"startup":false,"extensionId":{"value":"ms-vscode.js-debug","_lower":"ms-vscode.js-debug"},"activationEvent":"onCommand:extension.js-debug.clearAutoAttachVariables"}
+[2021-06-24 21:27:42.383] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/rakshita/.vscode-server/bin/507ce72a4466fbb27b715c3722558bb15afa9f48/extensions/ms-vscode.js-debug/src/extension.js
+[2021-06-24 21:29:42.777] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.cpptools {"startup":false,"extensionId":{"value":"ms-vscode.cpptools","_lower":"ms-vscode.cpptools"},"activationEvent":"*"}
+[2021-06-24 21:29:42.777] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/rakshita/.vscode-server/extensions/ms-vscode.cpptools-1.4.1/dist/main
+[2021-06-24 22:12:40.801] [exthost] [error] [ms-vscode.cpptools] provider FAILED
+[2021-06-24 22:12:40.802] [exthost] [error] Canceled: Canceled
+	at FoldingRangeProvider.<anonymous> (/home/rakshita/.vscode-server/extensions/ms-vscode.cpptools-1.4.1/dist/main.js:35700:23)
+	at Generator.next (<anonymous>)
+	at fulfilled (/home/rakshita/.vscode-server/extensions/ms-vscode.cpptools-1.4.1/dist/main.js:35674:58)
+[2021-06-24 22:15:03.645] [exthost] [error] [ms-vscode.cpptools] provider FAILED
+[2021-06-24 22:15:03.646] [exthost] [error] Canceled: Canceled
+	at FoldingRangeProvider.<anonymous> (/home/rakshita/.vscode-server/extensions/ms-vscode.cpptools-1.4.1/dist/main.js:35700:23)
+	at Generator.next (<anonymous>)
+	at fulfilled (/home/rakshita/.vscode-server/extensions/ms-vscode.cpptools-1.4.1/dist/main.js:35674:58)
+[2021-06-24 22:17:21.098] [exthost] [warning] ms-vscode.cpptools - Code actions of kind 'quickfix 'requested but returned code action does not have a 'kind'. Code action will be dropped. Please set 'CodeAction.kind'.
+[2021-06-24 22:17:21.098] [exthost] [warning] ms-vscode.cpptools - Code actions of kind 'quickfix 'requested but returned code action does not have a 'kind'. Code action will be dropped. Please set 'CodeAction.kind'.
+[2021-06-24 22:18:35.693] [exthost] [error] [ms-vscode.cpptools] provider FAILED
+[2021-06-24 22:18:35.694] [exthost] [error] Canceled: Canceled
+	at FoldingRangeProvider.<anonymous> (/home/rakshita/.vscode-server/extensions/ms-vscode.cpptools-1.4.1/dist/main.js:35700:23)
+	at Generator.next (<anonymous>)
+	at fulfilled (/home/rakshita/.vscode-server/extensions/ms-vscode.cpptools-1.4.1/dist/main.js:35674:58)
+[2021-06-24 22:22:38.166] [exthost] [error] [ms-vscode.cpptools] provider FAILED
+[2021-06-24 22:22:38.167] [exthost] [error] Canceled: Canceled
+	at FoldingRangeProvider.<anonymous> (/home/rakshita/.vscode-server/extensions/ms-vscode.cpptools-1.4.1/dist/main.js:35700:23)
+	at Generator.next (<anonymous>)
+	at fulfilled (/home/rakshita/.vscode-server/extensions/ms-vscode.cpptools-1.4.1/dist/main.js:35674:58)
+[2021-06-24 22:24:15.945] [exthost] [warning] ms-vscode.cpptools - Code actions of kind 'quickfix 'requested but returned code action does not have a 'kind'. Code action will be dropped. Please set 'CodeAction.kind'.
+[2021-06-24 22:24:15.946] [exthost] [warning] ms-vscode.cpptools - Code actions of kind 'quickfix 'requested but returned code action does not have a 'kind'. Code action will be dropped. Please set 'CodeAction.kind'.
+[2021-06-24 22:24:15.946] [exthost] [warning] ms-vscode.cpptools - Code actions of kind 'quickfix 'requested but returned code action does not have a 'kind'. Code action will be dropped. Please set 'CodeAction.kind'.
+[2021-06-24 22:24:15.946] [exthost] [warning] ms-vscode.cpptools - Code actions of kind 'quickfix 'requested but returned code action does not have a 'kind'. Code action will be dropped. Please set 'CodeAction.kind'.
+[2021-06-24 22:25:32.277] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing {"startup":false,"extensionId":{"value":"vscode.configuration-editing","_lower":"vscode.configuration-editing"},"activationEvent":"onLanguage:jsonc"}
+[2021-06-24 22:25:32.279] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/rakshita/.vscode-server/bin/507ce72a4466fbb27b715c3722558bb15afa9f48/extensions/configuration-editing/dist/configurationEditingMain
+[2021-06-24 22:25:32.372] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features {"startup":false,"extensionId":{"value":"vscode.json-language-features","_lower":"vscode.json-language-features"},"activationEvent":"onLanguage:jsonc"}
+[2021-06-24 22:25:32.372] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/rakshita/.vscode-server/bin/507ce72a4466fbb27b715c3722558bb15afa9f48/extensions/json-language-features/client/dist/node/jsonClientMain
+[2021-06-24 22:25:32.662] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"extensionId":{"value":"vscode.typescript-language-features","_lower":"vscode.typescript-language-features"},"activationEvent":"onLanguage:jsonc"}
+[2021-06-24 22:25:32.663] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/rakshita/.vscode-server/bin/507ce72a4466fbb27b715c3722558bb15afa9f48/extensions/typescript-language-features/dist/extension
+[2021-06-24 22:28:50.359] [exthost] [error] [ms-vscode.cpptools] provider FAILED
+[2021-06-24 22:28:50.359] [exthost] [error] Canceled: Canceled
+	at FoldingRangeProvider.<anonymous> (/home/rakshita/.vscode-server/extensions/ms-vscode.cpptools-1.4.1/dist/main.js:35700:23)
+	at Generator.next (<anonymous>)
+	at fulfilled (/home/rakshita/.vscode-server/extensions/ms-vscode.cpptools-1.4.1/dist/main.js:35674:58)
+[2021-06-24 22:29:16.401] [exthost] [error] [ms-vscode.cpptools] provider FAILED
+[2021-06-24 22:29:16.401] [exthost] [error] Canceled: Canceled
+	at FoldingRangeProvider.<anonymous> (/home/rakshita/.vscode-server/extensions/ms-vscode.cpptools-1.4.1/dist/main.js:35700:23)
+	at Generator.next (<anonymous>)
+	at fulfilled (/home/rakshita/.vscode-server/extensions/ms-vscode.cpptools-1.4.1/dist/main.js:35674:58)
+[2021-06-24 22:30:01.162] [exthost] [error] [ms-vscode.cpptools] provider FAILED
+[2021-06-24 22:30:01.162] [exthost] [error] Canceled: Canceled
+	at FoldingRangeProvider.<anonymous> (/home/rakshita/.vscode-server/extensions/ms-vscode.cpptools-1.4.1/dist/main.js:35700:23)
+	at Generator.next (<anonymous>)
+	at fulfilled (/home/rakshita/.vscode-server/extensions/ms-vscode.cpptools-1.4.1/dist/main.js:35674:58)
+	at runNextTicks (internal/process/task_queues.js:58:5)
+	at processImmediate (internal/timers.js:434:9)
+[2021-06-24 22:30:06.159] [exthost] [error] [ms-vscode.cpptools] provider FAILED
+[2021-06-24 22:30:06.160] [exthost] [error] Canceled: Canceled
+	at FoldingRangeProvider.<anonymous> (/home/rakshita/.vscode-server/extensions/ms-vscode.cpptools-1.4.1/dist/main.js:35700:23)
+	at Generator.next (<anonymous>)
+	at fulfilled (/home/rakshita/.vscode-server/extensions/ms-vscode.cpptools-1.4.1/dist/main.js:35674:58)
+[2021-06-24 22:47:48.710] [exthost] [error] [ms-vscode.cpptools] provider FAILED
+[2021-06-24 22:47:48.711] [exthost] [error] Canceled: Canceled
+	at FoldingRangeProvider.<anonymous> (/home/rakshita/.vscode-server/extensions/ms-vscode.cpptools-1.4.1/dist/main.js:35700:23)
+	at Generator.next (<anonymous>)
+	at fulfilled (/home/rakshita/.vscode-server/extensions/ms-vscode.cpptools-1.4.1/dist/main.js:35674:58)
+[2021-06-24 22:59:56.437] [exthost] [error] [ms-vscode.cpptools] provider FAILED
+[2021-06-24 22:59:56.438] [exthost] [error] Canceled: Canceled
+	at FoldingRangeProvider.<anonymous> (/home/rakshita/.vscode-server/extensions/ms-vscode.cpptools-1.4.1/dist/main.js:35700:23)
+	at Generator.next (<anonymous>)
+	at fulfilled (/home/rakshita/.vscode-server/extensions/ms-vscode.cpptools-1.4.1/dist/main.js:35674:58)
+	at runNextTicks (internal/process/task_queues.js:58:5)
+	at processImmediate (internal/timers.js:434:9)
+[2021-06-24 23:45:39.237] [exthost] [info] extension host terminating: received terminate message from renderer
+[2021-06-24 23:45:39.403] [exthost] [error] [ms-vscode.cpptools] provider FAILED
+[2021-06-24 23:45:39.405] [exthost] [error] Error: Connection got disposed.
+	at Object.dispose (/home/rakshita/.vscode-server/extensions/ms-vscode.cpptools-1.4.1/dist/main.js:50864:25)
+	at Object.dispose (/home/rakshita/.vscode-server/extensions/ms-vscode.cpptools-1.4.1/dist/main.js:51784:35)
+	at /home/rakshita/.vscode-server/extensions/ms-vscode.cpptools-1.4.1/dist/main.js:53778:28
+	at async Promise.all (index 10)
+	at async m.deactivateAll (/home/rakshita/.vscode-server/bin/507ce72a4466fbb27b715c3722558bb15afa9f48/out/vs/server/remoteExtensionHostProcess.js:89:10002)
+[2021-06-24 23:45:40.333] [exthost] [info] exiting with code 0
